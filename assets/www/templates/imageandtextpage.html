@@ -24,13 +24,18 @@
     text-justify: inter-word;">
                         
                     </div>
-                    
+                    <br /><br /><br /><br /><br /><br />
             </ion-content>
             <div class="bar bar-footer" style="background:none;" ng-show="iflogin">
                 <h1 class="title"> </h1>
                 <button class="button button-small ion-ios7-plus-outline button-positive" ng-click="editimageandtextpage($root.buttoncontent.elements[0].images[0].url)" style="margin-top:4px;">
                     &nbsp;&nbsp;Edit&nbsp;&nbsp;
                 </button>
+            </div>
+            <div class="bar bar-footer" ng-show="ifnotlogin"> 
+               <h2 class="title">
+               <img src="img/myappbuilder.png" alt="" style="width:110px;height:40px;"/>
+               </h2>
             </div>
         </ion-side-menu-content>
         
